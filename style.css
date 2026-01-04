@@ -89,6 +89,7 @@ footer {
   }
 }
 
+.gamblecore {background-image: url('./assets/gamblecore.png');}
 .ai-number-battle {background-image: url('./assets/ai-number-battle.png');}
 .water-cycle-quiz {background-image: url('./assets/water-cycle-quiz.png');}
 .rock-paper-scissors-cheat {background-image: url('./assets/rock-paper-scissors-cheat.png');}
