@@ -11,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0px 40px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: bolder;
@@ -31,6 +32,7 @@ header {
 }
 
 main {
+  width: 100%;
   text-align: center;
   & > * {
     margin: 20px 0;
@@ -40,28 +42,38 @@ main {
   }
 }
 ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  /* Remove the grid-template-rows line */
+  
   width: 100%;
-  max-width: 1280px;
+  max-width: 1400px; /* Add max-width for better large screen display */
   list-style: none;
-  font-size: 30px;
+  gap: 40px;
+  margin: 0 auto; /* Center the grid */
 }
-div {
-  height: 180px;
-  width: 320px;
-  border: 8px solid #b47b00;
+
+li {
+  aspect-ratio: 16/9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  display: block;
+  width: 100%; /* Make it responsive */
+  height: 100%; /* Fill the li container */
+  max-width: 320px;
+  max-height: 180px;
+  border: 8px solid;
   border-radius: 30px;
-  margin: 25px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
   
   &:hover {
     transform: scale(1.05);
@@ -70,6 +82,18 @@ div {
   &:active {
     transform: scale(0.95) rotate(4deg);
     opacity: 0.8;
+  }
+  &.me {
+    border-color: #50ff5f;
+    box-shadow: 0 0 20px rgba(255, 237, 199, 0.8);
+  }
+  &.half {
+    border-color: #ffcc5f;
+    box-shadow: 0 0 20px rgba(255, 237, 199, 0.4);
+  }
+  &.ai {
+    border-color: #41b3ff;
+    box-shadow: 0 0 20px rgba(255, 237, 199, 0.2);
   }
 }
 
@@ -89,6 +113,10 @@ footer {
   }
 }
 
+.chariot-racing {background-image: url('./assets/chariot-racing.png');}
+.minstrel-shows {background-image: url('./assets/minstrel-shows.png');}
+.number-wars {background-image: url('./assets/number-wars.png');}
+.random-group-creator {background-image: url('./assets/random-group-creator.png');}
 .gamblecore {background-image: url('./assets/gamblecore.png');}
 .ai-number-battle {background-image: url('./assets/ai-number-battle.png');}
 .water-cycle-quiz {background-image: url('./assets/water-cycle-quiz.png');}
