@@ -16,30 +16,32 @@
 
     <main>
       <h2>Projects</h2>
-      <ul>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/chariot-racing" class="half chariot-racing"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/minstrel-shows" class="me minstrel-shows"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/number-wars" class="me number-wars"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/random-group-creator" class="ai random-group-creator"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/gamblecore" class="me gamblecore"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/ai-number-battle" class="ai ai-number-battle"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/water-cycle-quiz" class="half water-cycle-quiz"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/rock-paper-scissors-cheat" class="me rock-paper-scissors-cheat"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/to-kill-a-mockingbird-introduction" class="me to-kill-a-mockingbird-introduction"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/slots-city-mockup" class="me slots-city-mockup"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/tip-manager" class="me tip-manager"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/citzenship-price-finder" class="half us-citizenship-estimator"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/coin-flipping-tycoon" class="me coin-flipping-tycoon"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/css-color-explorer" class="ai css-color-explorer"></a></li>
-        <li><a target="_blank" href="https://slots-tycoon.github.io" class="me slots-tycoon"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/cee-da-tings" class="me cee-da-tings"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/pomodoro-timer" class="me pomodoro-timer"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/id-generator" class="me id-generator"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/slots" class="me slot-machine"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/paper-co" class="me paper-co"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/quizo" class="me quizo"></a></li>
-        <li><a target="_blank" href="https://arpan-shah-102.github.io/background-color-changer" class="me background-color-changer"></a></li>
-      </ul>
+      <div class="options">
+        <label>Sort By: 
+          <select class="sort-by">
+            <option value="newest">Created (Newest)</option>
+            <option value="oldest">Created (Oldest)</option>
+            <option selected value="latest">Modified (Latest)</option>
+            <option value="earliest">Modified (Earliest)</option>
+            <option value="a-z">Name (A-Z)</option>
+            <option value="z-a">Name (Z-A)</option>
+          </select>
+        </label>
+
+        <label>Filter: 
+          <select class="filter">
+            <option selected value="all">All Projects</option>
+            <option value="me">My Projects</option>
+            <option value="ai">AI Projects</option>
+            <option value="half">Mixed Projects</option>
+            <option value="favorite">Favorite Projects</option>
+          </select>
+        </label>
+
+        <input type="text" placeholder="Search Projects" class="search">
+      </div>
+      
+      <ul></ul>
     </main>
 
     <footer>
