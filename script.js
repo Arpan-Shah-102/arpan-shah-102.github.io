@@ -123,11 +123,43 @@ function sortProjects() {
     }
 }
 function filterProjects(searchTerm = '') {
+    const term = searchTerm.trim().toLowerCase();
+    if (!term) {
+        sortProjects();
+        return;
+    }
+    
     websiteList.innerHTML = '';
-    for (const [key, project] of Object.entries(currentwebsites)) {
-        if (project.name.toLowerCase().includes(searchTerm)) {
-            appendListItem(project, key);
-        }
+
+    const filteredAndSorted = Object.entries(currentwebsites)
+        .filter(([, project]) => {
+            if (!term) return true; // show all when search is empty
+            return project.name.toLowerCase().includes(term); // must contain term
+        })
+        .sort((a, b) => {
+            const nameA = a[1].name.toLowerCase();
+            const nameB = b[1].name.toLowerCase();
+
+            // among matches, prioritize startsWith(term)
+            if (term) {
+                const aStarts = nameA.startsWith(term);
+                const bStarts = nameB.startsWith(term);
+                if (aStarts !== bStarts) return aStarts ? -1 : 1;
+            }
+
+            // then alphabetical
+            return nameA.localeCompare(nameB);
+        });
+
+    for (const [key, project] of filteredAndSorted) {
+        appendListItem(project, key);
+    }
+
+    if (filteredAndSorted.length === 0) {
+        const li = document.createElement('h2');
+        li.textContent = 'No projects found.';
+        li.classList.add('no-results');
+        websiteList.appendChild(li);
     }
 }
 function appendListItem(project, key) {
