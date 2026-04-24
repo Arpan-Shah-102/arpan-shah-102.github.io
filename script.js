@@ -27,6 +27,15 @@ function toggleFavoriteProject(projectKey) {
     }
     localStorage.setItem('favoriteProjects', JSON.stringify(favorites));
 }
+function getTabOpenPreference() {
+    const value = localStorage.getItem('openInTab');
+    return value === null ? true : value === 'true';
+}
+function toggleTabOpenPreference() {
+    const current = getTabOpenPreference();
+    localStorage.setItem('openInTab', !current);
+    sortProjects();
+}
 async function loadWebsites() {
     const response = await fetch('./projects.json');
     if (!response.ok) throw new Error('Failed to load projects.json');
@@ -40,9 +49,14 @@ const sortSelector = document.querySelector(".sort-by");
 const filterSelector = document.querySelector(".filter");
 const searchInput = document.querySelector('.search');
 const websiteList = document.querySelector('ul');
+const openInTabCheckbox = document.querySelector('.open-in-tab');
 let websites;
 let currentwebsites;
 
+openInTabCheckbox.checked = getTabOpenPreference();
+openInTabCheckbox.addEventListener('change', () => {
+    toggleTabOpenPreference();
+});
 sortSelector.value = getSortBy();
 sortSelector.addEventListener('change', (e) => {
     setSortBy(e.target.value);
@@ -121,7 +135,9 @@ function appendListItem(project, key) {
     li.innerHTML = `
         <abbr title="${project.name}">
             <p class="favorite-btn">${getFavoriteProjects().includes(key) ? '★' : '☆'}</p>
-            <a class="${project.type} ${key}" target="_blank" href="${project.url}"></a>
+            <a class="${project.type} ${key}" ${getTabOpenPreference() ? `target="_blank"` : ''} href="${project.url}">
+                <p class="project-name">${project.name}</p>
+            </a>
         </abbr>
     `;
     websiteList.appendChild(li);
