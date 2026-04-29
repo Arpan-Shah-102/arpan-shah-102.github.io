@@ -1,4 +1,12 @@
 {
+  "counter": {
+    "name": "Counter",
+    "url": "https://arpan-shah-102.github.io/counter",
+    "type": "me",
+    "favorite": false,
+    "created": 22,
+    "modified": 20260429
+  },
   "chariot-racing": {
     "name": "Chariot Racing",
     "url": "https://arpan-shah-102.github.io/chariot-racing",

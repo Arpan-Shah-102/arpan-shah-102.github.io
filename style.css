@@ -220,6 +220,7 @@ footer {
   }
 }
 
+.counter {background-image: url('./assets/counter.png');}
 .chariot-racing {background-image: url('./assets/chariot-racing.png');}
 .minstrel-shows {background-image: url('./assets/minstrel-shows.png');}
 .number-wars {background-image: url('./assets/number-wars.png');}
