@@ -1,4 +1,12 @@
 {
+  "jepoardy-score-tracker": {
+    "name": "Jeopardy Score Tracker",
+    "url": "https://arpan-shah-102.github.io/jeopardy-score-tracker",
+    "type": "me",
+    "favorite": false,
+    "created": 23,
+    "modified": 20260430
+  },
   "counter": {
     "name": "Counter",
     "url": "https://arpan-shah-102.github.io/counter",
