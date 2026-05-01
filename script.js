@@ -10,6 +10,9 @@ function setSortBy(value) {
 function getFilterBy() {
     return localStorage.getItem('filterBy') || 'all';
 }
+function getGenre() {
+    return localStorage.getItem('genre') || 'all';
+}
 function setFilterBy(value) {
     localStorage.setItem('filterBy', value);
     filterProjects();
@@ -47,6 +50,7 @@ async function loadWebsites() {
 
 const sortSelector = document.querySelector(".sort-by");
 const filterSelector = document.querySelector(".filter");
+const genreSelector = document.querySelector(".genre");
 const searchInput = document.querySelector('.search');
 const websiteList = document.querySelector('ul');
 const openInTabCheckbox = document.querySelector('.open-in-tab');
@@ -67,6 +71,11 @@ filterSelector.addEventListener('change', (e) => {
     setFilterBy(e.target.value);
     sortProjects();
 });
+genreSelector.value = getGenre();
+genreSelector.addEventListener('change', (e) => {
+    localStorage.setItem('genre', e.target.value);
+    sortProjects();
+});
 searchInput.addEventListener('input', (e) => {
     const searchTerm = e.target.value.toLowerCase();
     filterProjects(searchTerm);
@@ -75,6 +84,7 @@ searchInput.addEventListener('input', (e) => {
 function sortProjects() {
     const sortBy = getSortBy();
     const filterBy = getFilterBy();
+    const genre = getGenre();
     websiteList.innerHTML = '';
     currentwebsites = {};
 
@@ -89,6 +99,16 @@ function sortProjects() {
         }
     } else {
         currentwebsites = websites;
+    }
+
+    if (genre !== 'all') {
+        const unfiltedGenreWebsites = {...currentwebsites};
+        currentwebsites = {};
+        for (const [key, project] of Object.entries(unfiltedGenreWebsites)) {
+            if (project.genre === genre) {
+                currentwebsites[key] = project;
+            }
+        }
     }
 
     if (sortBy === 'newest' || sortBy == 'oldest') {

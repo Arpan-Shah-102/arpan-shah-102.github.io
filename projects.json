@@ -5,7 +5,8 @@
     "type": "me",
     "favorite": false,
     "created": 23,
-    "modified": 20260430
+    "modified": 20260430,
+    "genre": "other"
   },
   "counter": {
     "name": "Counter",
@@ -13,7 +14,8 @@
     "type": "me",
     "favorite": false,
     "created": 22,
-    "modified": 20260429
+    "modified": 20260429,
+    "genre": "utils"
   },
   "chariot-racing": {
     "name": "Chariot Racing",
@@ -21,7 +23,8 @@
     "type": "half",
     "favorite": false,
     "created": 21,
-    "modified": 20260320
+    "modified": 20260320,
+    "genre": "games"
   },
   "minstrel-shows": {
     "name": "Minstrel Shows",
@@ -29,7 +32,8 @@
     "type": "me",
     "favorite": true,
     "created": 20,
-    "modified": 20260227
+    "modified": 20260227,
+    "genre": "edu"
   },
   "number-wars": {
     "name": "Number Wars",
@@ -37,7 +41,8 @@
     "type": "me",
     "favorite": true,
     "created": 19,
-    "modified": 20260224.5
+    "modified": 20260224.5,
+    "genre": "games"
   },
   "random-group-creator": {
     "name": "Random Group Creator",
@@ -45,7 +50,8 @@
     "type": "ai",
     "favorite": false,
     "created": 18,
-    "modified": 20260224
+    "modified": 20260224,
+    "genre": "utils"
   },
   "gamblecore": {
     "name": "Gamblecore",
@@ -53,7 +59,8 @@
     "type": "me",
     "favorite": true,
     "created": 17,
-    "modified": 20260421
+    "modified": 20260430.5,
+    "genre": "games"
   },
   "ai-number-battle": {
     "name": "AI Number Battle",
@@ -61,7 +68,8 @@
     "type": "ai",
     "favorite": false,
     "created": 16,
-    "modified": 20251209
+    "modified": 20251209,
+    "genre": "games"
   },
   "water-cycle-quiz": {
     "name": "Water Cycle Quiz",
@@ -69,7 +77,8 @@
     "type": "half",
     "favorite": false,
     "created": 15,
-    "modified": 20251113.5
+    "modified": 20251113.5,
+    "genre": "edu"
   },
   "rock-paper-scissors-cheat": {
     "name": "Rock Paper Scissors Cheat",
@@ -77,7 +86,8 @@
     "type": "me",
     "favorite": false,
     "created": 14,
-    "modified": 20251113
+    "modified": 20251113,
+    "genre": "games"
   },
   "to-kill-a-mockingbird-introduction": {
     "name": "To Kill a Mockingbird Introduction",
@@ -85,7 +95,8 @@
     "type": "me",
     "favorite": true,
     "created": 13,
-    "modified": 20251028
+    "modified": 20251028,
+    "genre": "edu"
   },
   "slots-city-mockup": {
     "name": "Slots City Mockup",
@@ -93,7 +104,8 @@
     "type": "me",
     "favorite": true,
     "created": 12,
-    "modified": 20260119
+    "modified": 20260119,
+    "genre": "games"
   },
   "tip-manager": {
     "name": "Tip Manager",
@@ -101,7 +113,8 @@
     "type": "me",
     "favorite": false,
     "created": 11,
-    "modified": 20250813
+    "modified": 20250813,
+    "genre": "other"
   },
   "us-citizenship-estimator": {
     "name": "US Citizenship Estimator",
@@ -109,7 +122,8 @@
     "type": "half",
     "favorite": false,
     "created": 10,
-    "modified": 20250811
+    "modified": 20250811,
+    "genre": "other"
   },
   "coin-flipping-tycoon": {
     "name": "Coin Flipping Tycoon",
@@ -117,7 +131,8 @@
     "type": "me",
     "favorite": false,
     "created": 9,
-    "modified": 20250813.5
+    "modified": 20250813.5,
+    "genre": "games"
   },
   "css-color-explorer": {
     "name": "CSS Color Explorer",
@@ -125,7 +140,8 @@
     "type": "ai",
     "favorite": false,
     "created": 8,
-    "modified": 20250731
+    "modified": 20250731,
+    "genre": "utils"
   },
   "slots-tycoon": {
     "name": "Slots Tycoon",
@@ -133,7 +149,8 @@
     "type": "me",
     "favorite": true,
     "created": 7,
-    "modified": 20250817
+    "modified": 20250817,
+    "genre": "games"
   },
   "cee-da-tings": {
     "name": "Cee Da Tings",
@@ -141,7 +158,8 @@
     "type": "me",
     "favorite": true,
     "created": 6,
-    "modified": 20250721
+    "modified": 20250721,
+    "genre": "other"
   },
   "pomodoro-timer": {
     "name": "Pomodoro Timer",
@@ -149,7 +167,8 @@
     "type": "me",
     "favorite": false,
     "created": 5,
-    "modified": 20241225
+    "modified": 20241225,
+    "genre": "utils"
   },
   "id-generator": {
     "name": "ID Generator",
@@ -157,7 +176,8 @@
     "type": "me",
     "favorite": false,
     "created": 4,
-    "modified": 20241110
+    "modified": 20241110,
+    "genre": "utils"
   },
   "slots": {
     "name": "Slots",
@@ -165,7 +185,8 @@
     "type": "me",
     "favorite": false,
     "created": 3,
-    "modified": 20250106
+    "modified": 20250106,
+    "genre": "other"
   },
   "paper-co": {
     "name": "Paper Co",
@@ -173,7 +194,8 @@
     "type": "me",
     "favorite": true,
     "created": 2,
-    "modified": 20241106
+    "modified": 20241106,
+    "genre": "other"
   },
   "quizo": {
     "name": "Quizo",
@@ -181,7 +203,8 @@
     "type": "me",
     "favorite": false,
     "created": 1,
-    "modified": 20241027
+    "modified": 20241027,
+    "genre": "other"
   },
   "background-color-changer": {
     "name": "Background Color Changer",
@@ -189,6 +212,7 @@
     "type": "me",
     "favorite": false,
     "created": 0,
-    "modified": 20241024
+    "modified": 20241024,
+    "genre": "other"
   }
 }
