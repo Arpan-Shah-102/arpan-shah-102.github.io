@@ -220,6 +220,7 @@ footer {
   }
 }
 
+.bingo-boredom {background-image: url('./assets/bingo-boredom.png');}
 .slots-tycoon-2 {background-image: url('./assets/slots-tycoon-2.png');}
 .jepoardy-score-tracker {background-image: url('./assets/jeopardy-score-tracker.png');}
 .counter {background-image: url('./assets/counter.png');}

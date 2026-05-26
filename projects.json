@@ -1,10 +1,19 @@
 {
+  "bingo-boredom": {
+    "name": "Bingo Boredom",
+    "url": "https://arpan-shah-102.github.io/bingo-boredom",
+    "type": "me",
+    "favorite": false,
+    "created": 25,
+    "modified": 20260525,
+    "genre": "other"
+  },
   "slots-tycoon-2": {
     "name": "Slots Tycoon 2",
     "url": "https://arpan-shah-102.github.io/slots-tycoon-2",
     "type": "me",
     "favorite": true,
-    "created": 20260505,
+    "created": 24,
     "modified": 20260511,
     "genre": "games"
   },
