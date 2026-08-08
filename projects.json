@@ -1,0 +1,254 @@
+{
+  "the-beta-files": {
+    "name": "The Beta Files",
+    "url": "https://the-beta-files.vercel.app",
+    "type": "me",
+    "favorite": true,
+    "created": 27,
+    "modified": 20260808,
+    "genre": "other"
+  },
+  "react-calculator": {
+    "name": "React Calculator",
+    "url": "https://react-calculator-seven-lac.vercel.app",
+    "type": "me",
+    "favorite": false,
+    "created": 26,
+    "modified": 20260801,
+    "genre": "utils"
+  },
+  "bingo-boredom": {
+    "name": "Bingo Boredom",
+    "url": "https://arpan-shah-102.github.io/bingo-boredom",
+    "type": "me",
+    "favorite": false,
+    "created": 25,
+    "modified": 20260525,
+    "genre": "other"
+  },
+  "slots-tycoon-2": {
+    "name": "Slots Tycoon 2",
+    "url": "https://arpan-shah-102.github.io/slots-tycoon-2",
+    "type": "me",
+    "favorite": true,
+    "created": 24,
+    "modified": 20260730,
+    "genre": "games"
+  },
+  "jepoardy-score-tracker": {
+    "name": "Jeopardy Score Tracker",
+    "url": "https://arpan-shah-102.github.io/jeopardy-score-tracker",
+    "type": "me",
+    "favorite": false,
+    "created": 23,
+    "modified": 20260430,
+    "genre": "other"
+  },
+  "counter": {
+    "name": "Counter",
+    "url": "https://arpan-shah-102.github.io/counter",
+    "type": "me",
+    "favorite": false,
+    "created": 22,
+    "modified": 20260429,
+    "genre": "utils"
+  },
+  "chariot-racing": {
+    "name": "Chariot Racing",
+    "url": "https://arpan-shah-102.github.io/chariot-racing",
+    "type": "half",
+    "favorite": false,
+    "created": 21,
+    "modified": 20260320,
+    "genre": "games"
+  },
+  "minstrel-shows": {
+    "name": "Minstrel Shows",
+    "url": "https://arpan-shah-102.github.io/minstrel-shows",
+    "type": "me",
+    "favorite": true,
+    "created": 20,
+    "modified": 20260227,
+    "genre": "edu"
+  },
+  "number-wars": {
+    "name": "Number Wars",
+    "url": "https://arpan-shah-102.github.io/number-wars",
+    "type": "me",
+    "favorite": true,
+    "created": 19,
+    "modified": 20260224.5,
+    "genre": "games"
+  },
+  "random-group-creator": {
+    "name": "Random Group Creator",
+    "url": "https://arpan-shah-102.github.io/random-group-creator",
+    "type": "ai",
+    "favorite": false,
+    "created": 18,
+    "modified": 20260224,
+    "genre": "utils"
+  },
+  "gamblecore": {
+    "name": "Gamblecore",
+    "url": "https://arpan-shah-102.github.io/gamblecore",
+    "type": "me",
+    "favorite": true,
+    "created": 17,
+    "modified": 20260526,
+    "genre": "games"
+  },
+  "ai-number-battle": {
+    "name": "AI Number Battle",
+    "url": "https://arpan-shah-102.github.io/ai-number-battle",
+    "type": "ai",
+    "favorite": false,
+    "created": 16,
+    "modified": 20251209,
+    "genre": "games"
+  },
+  "water-cycle-quiz": {
+    "name": "Water Cycle Quiz",
+    "url": "https://arpan-shah-102.github.io/water-cycle-quiz",
+    "type": "half",
+    "favorite": false,
+    "created": 15,
+    "modified": 20251113.5,
+    "genre": "edu"
+  },
+  "rock-paper-scissors-cheat": {
+    "name": "Rock Paper Scissors Cheat",
+    "url": "https://arpan-shah-102.github.io/rock-paper-scissors-cheat",
+    "type": "me",
+    "favorite": false,
+    "created": 14,
+    "modified": 20251113,
+    "genre": "games"
+  },
+  "to-kill-a-mockingbird-introduction": {
+    "name": "To Kill a Mockingbird Introduction",
+    "url": "https://arpan-shah-102.github.io/to-kill-a-mockingbird-introduction",
+    "type": "me",
+    "favorite": true,
+    "created": 13,
+    "modified": 20251028,
+    "genre": "edu"
+  },
+  "slots-city-mockup": {
+    "name": "Slots City Mockup",
+    "url": "https://arpan-shah-102.github.io/slots-city-mockup",
+    "type": "me",
+    "favorite": true,
+    "created": 12,
+    "modified": 20260119,
+    "genre": "games"
+  },
+  "tip-manager": {
+    "name": "Tip Manager",
+    "url": "https://arpan-shah-102.github.io/tip-manager",
+    "type": "me",
+    "favorite": false,
+    "created": 11,
+    "modified": 20250813,
+    "genre": "other"
+  },
+  "us-citizenship-estimator": {
+    "name": "US Citizenship Estimator",
+    "url": "https://arpan-shah-102.github.io/citzenship-price-finder",
+    "type": "half",
+    "favorite": false,
+    "created": 10,
+    "modified": 20250811,
+    "genre": "other"
+  },
+  "coin-flipping-tycoon": {
+    "name": "Coin Flipping Tycoon",
+    "url": "https://arpan-shah-102.github.io/coin-flipping-tycoon",
+    "type": "me",
+    "favorite": false,
+    "created": 9,
+    "modified": 20250813.5,
+    "genre": "games"
+  },
+  "css-color-explorer": {
+    "name": "CSS Color Explorer",
+    "url": "https://arpan-shah-102.github.io/css-color-explorer",
+    "type": "ai",
+    "favorite": false,
+    "created": 8,
+    "modified": 20250731,
+    "genre": "utils"
+  },
+  "slots-tycoon": {
+    "name": "Slots Tycoon",
+    "url": "https://slots-tycoon.github.io",
+    "type": "me",
+    "favorite": true,
+    "created": 7,
+    "modified": 20250817,
+    "genre": "games"
+  },
+  "cee-da-tings": {
+    "name": "Cee Da Tings",
+    "url": "https://arpan-shah-102.github.io/cee-da-tings",
+    "type": "me",
+    "favorite": true,
+    "created": 6,
+    "modified": 20250721,
+    "genre": "other"
+  },
+  "pomodoro-timer": {
+    "name": "Pomodoro Timer",
+    "url": "https://arpan-shah-102.github.io/pomodoro-timer",
+    "type": "me",
+    "favorite": false,
+    "created": 5,
+    "modified": 20241225,
+    "genre": "utils"
+  },
+  "id-generator": {
+    "name": "ID Generator",
+    "url": "https://arpan-shah-102.github.io/id-generator",
+    "type": "me",
+    "favorite": false,
+    "created": 4,
+    "modified": 20241110,
+    "genre": "utils"
+  },
+  "slots": {
+    "name": "Slots",
+    "url": "https://arpan-shah-102.github.io/slots",
+    "type": "me",
+    "favorite": false,
+    "created": 3,
+    "modified": 20250106,
+    "genre": "other"
+  },
+  "paper-co": {
+    "name": "Paper Co",
+    "url": "https://arpan-shah-102.github.io/paper-co",
+    "type": "me",
+    "favorite": true,
+    "created": 2,
+    "modified": 20241106,
+    "genre": "other"
+  },
+  "quizo": {
+    "name": "Quizo",
+    "url": "https://arpan-shah-102.github.io/quizo",
+    "type": "me",
+    "favorite": false,
+    "created": 1,
+    "modified": 20241027,
+    "genre": "other"
+  },
+  "background-color-changer": {
+    "name": "Background Color Changer",
+    "url": "https://arpan-shah-102.github.io/background-color-changer",
+    "type": "me",
+    "favorite": false,
+    "created": 0,
+    "modified": 20241024,
+    "genre": "other"
+  }
+}

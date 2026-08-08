@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpan's Project Directory</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/favicon/favicon.png">
+  </head>
+
+  <body>
+    <header>
+      <h1>Welcome to Arpan's Project Directory</h1>
+      <p>This directory contains various projects related to web development that I've made. Feel free to search around the different projects!</p>
+    </header>
+
+    <main>
+      <h2>Projects</h2>
+      <div class="options">
+        <label>Sort By: 
+          <select class="sort-by">
+            <option value="newest">Created (Newest)</option>
+            <option value="oldest">Created (Oldest)</option>
+            <option selected value="latest">Modified (Latest)</option>
+            <option value="earliest">Modified (Earliest)</option>
+            <option value="a-z">Name (A-Z)</option>
+            <option value="z-a">Name (Z-A)</option>
+          </select>
+        </label>
+
+        <label>Filter: 
+          <select class="filter">
+            <option selected value="all">All Projects</option>
+            <option value="me">My Projects</option>
+            <option value="ai">AI Projects</option>
+            <option value="half">Mixed Projects</option>
+            <option value="favorite">Favorite Projects</option>
+          </select>
+        </label>
+
+        <label>Genre:
+          <select class="genre">
+            <option selected value="all">All Genres</option>
+            <option value="games">Games</option>
+            <option value="utils">Utilities</option>
+            <option value="edu">Information</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+
+        <label>Open in New Tab: <input checked type="checkbox" class="open-in-tab"></label>
+
+        <input type="text" placeholder="Search Projects" class="search">
+      </div>
+
+      <ul></ul>
+    </main>
+
+    <footer>
+      <p>&copy; <span class="year">2025</span> Arpan's Projects. All rights reserved.</p>
+      <p>This website exists so I have a list and is easily accesable. This does not act as a portfolio.</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
