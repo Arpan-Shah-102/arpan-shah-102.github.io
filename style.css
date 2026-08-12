@@ -220,6 +220,7 @@ footer {
   }
 }
 
+.day-calculator {background-image: url('./assets/day-calculator.png');}
 .the-beta-files {background-image: url('./assets/the-beta-files.png');}
 .react-calculator {background-image: url('./assets/react-calculator.png');}
 .bingo-boredom {background-image: url('./assets/bingo-boredom.png');}

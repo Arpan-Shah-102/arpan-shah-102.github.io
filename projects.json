@@ -1,4 +1,13 @@
 {
+  "day-calculator": {
+    "name": "Day Calculator",
+    "url": "https://day-calculator-chi.vercel.app",
+    "type": "me",
+    "favorite": false,
+    "created": 28,
+    "modified": 20260812,
+    "genre": "utils"
+  },
   "the-beta-files": {
     "name": "The Beta Files",
     "url": "https://the-beta-files.vercel.app",
