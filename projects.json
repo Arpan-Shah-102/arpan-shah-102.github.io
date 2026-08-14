@@ -1,4 +1,13 @@
 {
+  "tricky-trunks": {
+    "name": "Tricky Trunks",
+    "url": "https://tricky-trunks.vercel.app",
+    "type": "me",
+    "favorite": true,
+    "created": 29,
+    "modified": 20260814,
+    "genre": "games"
+  },
   "day-calculator": {
     "name": "Day Calculator",
     "url": "https://day-calculator-chi.vercel.app",
