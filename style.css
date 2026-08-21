@@ -220,6 +220,7 @@ footer {
   }
 }
 
+.pinpoint {background-image: url('./assets/pinpoint.png');}
 .tricky-trunks {background-image: url('./assets/tricky-trunks.png');}
 .day-calculator {background-image: url('./assets/day-calculator.png');}
 .the-beta-files {background-image: url('./assets/the-beta-files.png');}

@@ -1,4 +1,13 @@
 {
+  "pinpoint": {
+    "name": "Pinpoint",
+    "url": "https://pinpoint-psi-rust.vercel.app",
+    "type": "me",
+    "favorite": true,
+    "created": 30,
+    "modified": 20260821,
+    "genre": "games"
+  },
   "tricky-trunks": {
     "name": "Tricky Trunks",
     "url": "https://tricky-trunks.vercel.app",
