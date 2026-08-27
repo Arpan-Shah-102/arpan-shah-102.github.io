@@ -1,4 +1,13 @@
 {
+  "crypto-clicker": {
+    "name": "Crypto Clicker",
+    "url": "https://crypto-clicker-nu.vercel.app",
+    "type": "me",
+    "favorite": true,
+    "created": 31,
+    "modified": 20260826,
+    "genre": "games"
+  },
   "pinpoint": {
     "name": "Pinpoint",
     "url": "https://pinpoint-psi-rust.vercel.app",
